@@ -41,7 +41,8 @@ const Homepage = () => {
 
   const getSuggestions = (query) => {
     let idx = Math.floor(Math.random() * (4 - 1) + 1);
-
+    // Here will be the loogic to fetch the suggestions by the api using fetch or axios.
+    // I have done it locally by setting up 3 arrays and sending them in the random manner.
     const array1 = ["abcd", "shubham", "sati", "Hey", "Hi"];
     const array2 = [
       "sdgdsgasdg",
