@@ -1,0 +1,31 @@
+main {
+    margin: 10px auto;
+    width: 500px;
+    padding: 5px;
+    /* background-color: cyan; */
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  #search {
+    padding: 10px 10px;
+    width: 97%;
+    border: none;
+  }
+  
+  #search:focus{
+    outline: none;
+  }
+  
+  #suggestion-box {
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    padding: 0 10px;
+    /* border-top: 1px solid gray; */
+  }
+  
+  
+  
+  
+  
